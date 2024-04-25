@@ -1,0 +1,61 @@
+.website {
+    background-color: black;
+    color: white;
+    font-family: 'Open Sans';
+    text-align: center;
+}
+  
+.title {
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Open Sans';
+    font-weight: bolder;
+    color: rgb(99, 3, 99);
+}
+  
+.rounded-box {
+    border-radius: 10px;
+    background-color: #2e2e2e;
+    padding: 20px;
+    width: 300px;
+    margin: 20px 10px;
+}
+  
+a {
+    text-decoration: none; /* Remove underline */
+    font-weight: bold;
+}
+  
+.mastodon {
+    color: #5847d4; /* Link color */
+}
+.github {
+    color: #4e4e50; /* Link color */
+}
+  
+.container {
+    display: flex;
+    justify-content: center; /* Adjust as needed */
+}
+  
+.box-wrapper {
+    display: flex;
+}
+  
+button {
+    background-color: #262c2d;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #2e2e2e;
+}
+button:hover {
+    background-color: #353f40;
+}
+  
+button:focus {
+    background-color: #252b2c;
+}
+
+.dot {
+    text-align: center;
+}

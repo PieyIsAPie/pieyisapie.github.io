@@ -1,1 +1,50 @@
-temp code
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>PieyIsAPie</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;600;700&display=swap" rel="stylesheet">
+  <script>
+    window.onload = function() {
+        function getRandomInt(min, max) {
+            min = Math.ceil(min);
+            max = Math.floor(max);
+            return Math.floor(Math.random() * (max - min + 1)) + min;
+        }
+        const numbor = document.getElementById("numbor");
+        var randomInt = getRandomInt(100, 999);
+        numbor.innerText = randomInt;
+    }
+
+  </script>
+</head>
+
+<body class="website">
+  <header>
+    <h1 class="title">
+      <span class="title-1">PieyIsAPie</span>
+    </h1>
+    <p><a class="mastodon" href="https://floss.social/@PieyIsAPie" target="_blank">Mastodon</a> &middot; <a class="github" href="https://github.com/PieyIsAPie" target="_blank">Github</a></p>
+  </header>
+  
+  <div class="wrapper">
+    <p>A dingus</p>
+  </div>
+  
+  <div class="container">
+      <div class="rounded-box">
+        <h2>About me</h2>
+        <p>A modder, programmer/game developer, self-proclaimed decent line artist and writer</p>
+        <p>Probably chugging root beer or sprite</p>
+      </div>
+      <div class="rounded-box">
+        <h2>Your number is</h2>
+        <p id="numbor"></p>
+      </div>
+  </div>
+</body>
+
+</html>
